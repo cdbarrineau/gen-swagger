@@ -5,6 +5,9 @@ This tool uses several other tools to generate both Swagger JSON and TypeScipt c
 ## Version
 This tool only uses Node.js.  Testes version is v24.13.0
 
+## 3rd Party Tools
+This application uses the swagger-typescript-api library.  It is installed via the node-web-server's package.json
+
 ## Install
 The main install is for the Node.js server:
 ```
