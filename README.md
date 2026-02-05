@@ -32,7 +32,7 @@ There are many ways to expose a Swagger Endpoint however, the easiest for Spring
 </dependency>
 ```
 
-Using this, the Swagger endpoint can be reached via:
+Using this, the Swagger Endpoint can be reached via:
 ```
 - Raw JSON: http://localhost/v3/api-docs
 - HTML: http://localhost/swagger-ui/index.html#/
@@ -49,7 +49,7 @@ Then point a web browser to http://localhost:3000/
 There are several fields on the UI that control various aspects of generation:
 1) Swagger File Name: The name of the generated Swagger file.
 2) TypeScript File Name: the name of the gnerated TypeScript file.
-3) Server URL: The URL of the server that is exposing the Swagger endpoint.
+3) Server URL: The URL of the server that is exposing the Swagger Endpoint.
 
 When the ```Generate``` button is clicked it will display the Swagger JSON in the UI and will download the Swagger and TypeScript files in a zip file.
 
