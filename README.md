@@ -3,7 +3,7 @@
 This tool uses several other tools to generate both Swagger JSON and TypeScipt classes from an exposed Swagger Endpoint.  The Swagger Endpoint must be running (e.g. in a Spring Boot applicaiton) prior to generation.
 
 ## Version
-This tool only uses Node.js.  Testes version is v24.13.0
+This tool only uses Node.js.  Tested version is v24.13.0
 
 ## 3rd Party Tools
 This application uses the swagger-typescript-api library.  It is installed via the node-web-server's package.json
