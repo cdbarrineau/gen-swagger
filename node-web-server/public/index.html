@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GenSwaggerUi</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2 id="title">Generate Swagger JSON and TypeScript from Swagger</h2>
+  <div class="container">
+    <div class="controls">
+      <div>
+        <label for="swagger-file-name" class="form-label mt-4">Swagger File Name:</label>
+        <input type="text" class="form-control" id="swagger-file-name" name="swagger-file-name" value="swagger.json">
+      </div>
+      <div>
+        <label for="ts-file-name" class="form-label mt-4">TypeScript File Name:</label>
+        <input type="text" class="form-control" id="ts-file-name" name="ts-file-name" value="typescript.ts">
+      </div>
+      <div>
+        <label for="server-url" class="form-label mt-4">Server URL:</label>
+        <input type="text" class="form-control" id="server-url" name="server-url" value="http://localhost:8080/v3/api-docs">
+        <small id="server-url-help" class="form-text text-muted">URL of the Server running Swagger API.</small>
+      </div>
+      <button class="btn btn-primary" id="gen-btn" type="button" onclick="generate()">Generate</button>
+    </div>
+
+    <p id="success-gen" class="text-success">Generation Successful</p>
+    <p id="error-text" class="text-danger"></p>
+
+    <pre id="json-display"></pre>
+  </div>
+</body>
+  <script src="generate.js"></script>   
+</html>

@@ -1,0 +1,30 @@
+#title {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.controls {
+  width: 40%;
+}
+
+#gen-btn {
+  margin-top: 20px;
+}
+
+#error-text {
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+#success-gen {
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+#json-display {
+  margin-top: 20px;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.13.4",
+    "express": "^5.2.1",
+    "swagger-typescript-api": "^13.2.16"
+  }
+}

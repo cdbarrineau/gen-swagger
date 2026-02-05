@@ -1,0 +1,11 @@
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+### VS Code ###
+.vscode/
+
+# Application Files
+/ts
+swagger.json
